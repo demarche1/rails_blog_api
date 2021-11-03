@@ -2,6 +2,7 @@
 
 class User < ActiveRecord::Base
   before_validation :set_uid
+  has_many :articles, dependent: :destroy
 
   # Include default devise modules. Others available are:
   # :lockable, :timeoutable, and :omniauthable
