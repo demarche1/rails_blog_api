@@ -1,10 +1,10 @@
 class Api::V2::ArticlesController < ApplicationController
-  before_action :authenticate_api_user!
+  before_action :authenticate_api_user!, except: [:index]
   before_action :set_article, only: %i[show update destroy]
 
   # GET /articles
   def index
-    @articles = current_api_user.articles.all
+    @articles = Article.all
 
     render json: @articles
   end
