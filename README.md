@@ -1,24 +1,26 @@
-# README
+# Blog API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails 6 course as API showing authentication via [devise_token_auth](https://github.com/lynndylanhurley/devise_token_auth).
 
-Things you may want to cover:
+This repository is part of the playlist [Ruby on Rails 6 - Autenticação via API](https://www.youtube.com/watch?v=i6vul6MqylE&list=PLqsayW8DhUmsuvK17gwSI_rKbAlmxFIw5) on YouTube.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<table>
+  <tr>
+    <td>Ruby version</td>
+    <td>
+      3.0.2
+    </td>
+  </tr>
+  <tr>
+    <td>Rails version</td>
+    <td>
+      6.1.3.1
+    </td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td>
+      PostgreSQL
+    </td>
+  </tr>
+</table>
